@@ -9,6 +9,9 @@
 * `nanoid` 随机生成unique id 
 * 使用zod进行表单的类型验证`pnpm i zod`
 * `eventsource-parser`用来处理readablestream,接收chunks，并且在接受完完整信息后，触发parsed data
+* `react-hot-toast` 一个流行的toast库
+* 使用upstash的redis服务，来为路由添加保护
+  * 安装两个库`@upstash/redis @upstash/ratelimit`
 
 ### warmup
 * e.preventDefault() 是一个方法，用于阻止浏览器执行与事件相关的默认动作。例如，当你在一个表单的提交按钮上点击时，浏览器默认会重新加载页面。如果你希望在点击按钮时执行一些自定义的 JavaScript 逻辑，而不是让浏览器重新加载页面，就可以使用 e.preventDefault() 来阻止这种默认行为
